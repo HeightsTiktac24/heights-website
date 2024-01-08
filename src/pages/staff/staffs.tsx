@@ -39,7 +39,7 @@ export const Staffs = () => {
       </div>
       <div className="mx-auto w-full max-w-6xl">
         <div className="flex w-full flex-col md:flex-row">
-          {StaffInfo.map((item, key) => (
+          {StaffInfo.map((item) => (
             <div className="w-full p-5 text-center md:w-4/12 md:p-8">
               <img
                 src={item.image}
