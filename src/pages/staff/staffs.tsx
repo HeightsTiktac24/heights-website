@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Edna from "../../assets/edna.png";
 import Anthony from "../../assets/tony.png";
 import Steven from "../../assets/steven.jpg";
