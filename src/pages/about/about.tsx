@@ -19,14 +19,7 @@ export const About = () => {
               </div>
               <div className="w-full space-y-8 lg:max-w-3xl lg:pl-4 lg:text-lg pb-14">
                 <p>
-                  Heights Tiktac is a conglomerate established with the
-                  overarching goal of providing solutions to challenges in our
-                  day-to-day activities. Heights Tiktac is a top-notch
-                  organization which has overarching services in diverse areas
-                  such as the academia, environmental, safety, waste management,
-                  social and real estate. Heights Tiktac’s robust modus operandi
-                  sees to it that scheduled tasks are completed in a timely
-                  manner.
+                Heights Tiktac is a conglomerate established with the overarching goal of providing solutions to challenges in our day-to-day activities. Heights Tiktac is a top-notch organization which has overarching services in diverse areas such as the academia, environmental, safety, waste management, social and real estate.  Heights Tiktac’s robust modus operandi sees to it that scheduled tasks are completed in a timely manner. 
                 </p>
               </div>
             </section>
