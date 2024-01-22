@@ -53,9 +53,8 @@ export const Footer = () => {
             </div>
             <div className="mt-6 space-y-3 font-medium ">
               <div className="flex flex-col items-center justify-center">
-                Tel :<p>+233552175769</p>
-                <p>+233543370459</p>
-                <p>+233248148653</p>{" "}
+                Tel :
+                <p>+233543370459</p>{" "}
               </div>
             </div>
           </div>
