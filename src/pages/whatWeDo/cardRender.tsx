@@ -10,35 +10,57 @@ const Intel = [
   },
   {
     id: 2,
-    header: "Sanerv Consult",
-    description: "Summary goes here",
+    header: "Editing of manuscripts",
+    description: "We provide editorial assistance on your manuscripts",
   },
   {
     id: 3,
-    header: "SafeHeights Consult",
-    description: "Summary goes here",
+    header: "Guide and facilitate the publication process of authors",
+    description: "We assist client choose you a journal and through the various stages to publication",
   },
   {
     id: 4,
-    header: "Waste Val locus",
-    description: "Summary goes here",
+    header: "Business consulting services",
+    description: "Elevate your business with our tailored consulting services",
   },
   {
     id: 5,
-    header: "MushUp Tiktac Ventures",
+    header: "KPI Assistance",
     description:
-      "Mushup is a wholly Ghanaian company that seeks to introduce Ghana and the world, to the various possibilities that can be reached with mushroom production.",
+      "Introducing Key Performance Indicators which will help companies measure their progress",
   },
   {
     id: 6,
-    header: " Equipped Ventures",
-    description: "Summary goes here",
+    header: "QA Assistance",
+    description: "Conducting quality assurance for diverse companies",
   },
   {
     id: 7,
-    header: "EdSanServ",
+    header: "Research/Grant proposal writing",
     description:
-      "ED§ANSERV   is a sanitation service company that seeks to maximise the use of effluent and nutrient resource from all waste streams (both solid and liquid) in a facility. ",
+      "Writing proposals for grants that will either tow a research tangent or a practical tangent",
+  },
+  {
+    id: 8,
+    header: "Academic Helpline",
+    description:
+      "Empowering students with comprehensive academic support through:
+      • Assistance in thesis, assignments, and research proposal writing.
+      • Aid in data collection",
+  },
+  {
+    id: 9,
+    header: "Assist students (particularly postgraduates) with academic writing",
+    description:
+      "• Thesis writing
+      • Assignments
+      • Research Proposal writing",
+  },
+  {
+    id: 10,
+    header: "Assist students with data collection",
+    description:
+      "",
   },
 ];
 
@@ -54,13 +76,15 @@ const CompanyCard = () => {
         </div>
       </div>
       <p className="text-center font-normal grid grid-cols-1 max-w-2xl mx-auto pt-8">
-      At Frontiers Hub, we stand by you, providing unwavering support across academia, business, and environmental initiatives. We assist you with embarking on your publication journey with confidence. Elevate your business with our tailored consulting services. and partnering with international editing companies for a global perspective.
+        At Frontiers Hub, we stand by you, providing unwavering support across academia, business, and environmental initiatives. We assist you with embarking on your publication journey with confidence. Elevate your business with our tailored consulting services. and partnering with international editing companies for a global perspective.
       </p>
       
       <section className="p-6 md:py-10">
-        <h2 className="font-display relative text-xl font-bold tracking-tight text-heading lg:text-3xl lg:tracking-tighter">
-          Services
-        </h2>
+        <div>
+          <h2 className="font-display relative text-xl font-bold tracking-tight text-heading lg:text-3xl lg:tracking-tighter">
+            Services
+          </h2>
+        </div>
         <div className="mx-auto w-full max-w-6xl ">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {Intel.map((item, key) => (
@@ -91,7 +115,6 @@ const CompanyCard = () => {
                       <div className="font-semibold text-heading">
                         {item.header}
                       </div>
-                      <div className="text-xs text-text">@jdean</div>
                     </div>
                   </div>
                 </div>
