@@ -1,7 +1,7 @@
 // import React from "react";
-import Edna from "../../assets/edna.png";
+// import Edna from "../../assets/edna.png";
 import Anthony from "../../assets/tony.png";
-import Steven from "../../assets/steven.jpg";
+// import Steven from "../../assets/steven.jpg";
 
 export const Staffs = () => {
   const StaffInfo = [
