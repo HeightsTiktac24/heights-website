@@ -44,23 +44,17 @@ const Intel = [
     id: 8,
     header: "Academic Helpline",
     description:
-      "Empowering students with comprehensive academic support through:
-      • Assistance in thesis, assignments, and research proposal writing.
-      • Aid in data collection",
+      "Empowering students with comprehensive academic support through: • Assistance in thesis, assignments, and research proposal writing. • Aid in data collection",
   },
   {
     id: 9,
     header: "Assist students (particularly postgraduates) with academic writing",
-    description:
-      "• Thesis writing
-      • Assignments
-      • Research Proposal writing",
+    description: "• Thesis writing • Assignments • Research Proposal writing",
   },
   {
     id: 10,
     header: "Assist students with data collection",
-    description:
-      "",
+    description: "",
   },
 ];
 
