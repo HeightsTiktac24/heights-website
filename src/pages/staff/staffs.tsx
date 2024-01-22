@@ -11,23 +11,23 @@ export const Staffs = () => {
         "I am an academic and environmental, health and safety and waste management professional, who seeks to bring to bear tenable dexterity and an inuring persevering disposition in improving lives while achieving set goals in work environments. ",
       image: `${Anthony}`,
     },
-    {
-      name: "Edna Korlekie Dapaah",
-      about:
-        "I am a civil engineering professional with great interest in tackling environmental and sanitation-related problems using sustainable engineering concepts. I have over the years demonstrated that I am capable of promulgating solutions to any and every problem I encounter.",
-      image: `${Edna}`,
-    },
-    {
-      name: "Steven Adi Otiku-Ayiku",
-      about:
-        "I am adept and versatile but possesses years of experience as a civil engineer. Specifically, I am passionate about the environment and seeks to bring innovative solutions to everyday problems within and without the field of engineering. ",
-      image: `${Steven}`,
-    },
+    // {
+    //   name: "Edna Korlekie Dapaah",
+    //   about:
+    //     "I am a civil engineering professional with great interest in tackling environmental and sanitation-related problems using sustainable engineering concepts. I have over the years demonstrated that I am capable of promulgating solutions to any and every problem I encounter.",
+    //   image: `${Edna}`,
+    // },
+    // {
+    //   name: "Steven Adi Otiku-Ayiku",
+    //   about:
+    //     "I am adept and versatile but possesses years of experience as a civil engineer. Specifically, I am passionate about the environment and seeks to bring innovative solutions to everyday problems within and without the field of engineering. ",
+    //   image: `${Steven}`,
+    // },
   ];
   return (
     <section className="p-6 text-center md:p-10 bg-gradient-to-r from-cyan-600 to-green-500 mt-12">
       {/* <div className="font-normal text-center text-white text-6xl pt-10 mb-12">
-        Meet Our<span className="bg-white text-green-400 mx-2 px-6 py-3 ">Expects</span>
+        Meet Our<span className="bg-white text-green-400 mx-2 px-6 py-3 ">Experts</span>
       </div> */}
       <div className="mt-12 mb-12 flex flex-col justify-center gap-10 lg:mt-12 lg:flex-row lg:gap-4">
         <div>
