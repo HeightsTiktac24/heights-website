@@ -74,7 +74,7 @@ const CompanyCard = () => {
       </p>
       
       <section className="p-6 md:py-10">
-        <div>
+        <div class="justify-center text-center">
           <h2 className="font-display relative text-xl font-bold tracking-tight text-heading lg:text-3xl lg:tracking-tighter">
             Services
           </h2>
