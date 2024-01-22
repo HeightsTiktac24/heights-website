@@ -41,7 +41,7 @@ export const Footer = () => {
               </a>
             </div>
             <div className="mt-12 flex  flex-col justify-center space-x-0 space-y-4 text-sm font-medium sm:flex-row sm:space-y-0 sm:space-x-6">
-          <span>Copyright &copy; 2023</span>
+          <span>Copyright &copy; 2024</span>
           <a href="#" className="text-text/50 hover:text-heading">
             Terms of Service
           </a>
