@@ -39,8 +39,7 @@ import { useNavigate } from "react-router-dom";
             <span className="font-bold  text-green-700"> Consortium</span>
           </div>
           <p className="text-2xl  text-lg text-white font-normal">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
-            non nulla iaculis lacus mi. Eu fusce pellentesque mattis.
+            A step up
           </p>
           <button
             type="button"

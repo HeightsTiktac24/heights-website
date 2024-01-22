@@ -5,8 +5,8 @@ import { Staffs } from "../staff/staffs";
 const Intel = [
   {
     id: 1,
-    header: "Frontier Hub",
-    description: "Summary goes here",
+    header: "Freelance Academic Editing Services of Manuscripts and Publication Services",
+    description: "We stand by you throughout your publication journey through editing manuscripts to ensure clarity and adherence to standard scientific English, formatting manuscripts according to journal guidelines, and providing comprehensive support from journal selection to submission.",
   },
   {
     id: 2,
@@ -54,13 +54,13 @@ const CompanyCard = () => {
         </div>
       </div>
       <p className="text-center font-normal grid grid-cols-1 max-w-2xl mx-auto pt-8">
-        Pexels is a popular online platform that provides high-quality stock
-        photos, videos, and music for free. It offers a vast collection of
-        creative and professional resources that can be used by individuals,
-        businesses, designers, and content creators for various purposes, such
-        as websites, blogs, social media, presentations, and more.
+      At Frontiers Hub, we stand by you, providing unwavering support across academia, business, and environmental initiatives. We assist you with embarking on your publication journey with confidence. Elevate your business with our tailored consulting services. and partnering with international editing companies for a global perspective.
       </p>
+      
       <section className="p-6 md:py-10">
+        <h2 className="font-display relative text-xl font-bold tracking-tight text-heading lg:text-3xl lg:tracking-tighter">
+          Services
+        </h2>
         <div className="mx-auto w-full max-w-6xl ">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {Intel.map((item, key) => (
