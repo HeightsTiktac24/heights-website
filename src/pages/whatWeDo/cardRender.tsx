@@ -1,67 +1,64 @@
 import { About } from "../about/about";
 import { Footer } from "../footer/footer";
-import { Staffs } from "../staff/staffs";
-
+// import { useNavigate } from "react-router-dom";
 const Intel = [
   {
     id: 1,
-    header: "Freelance Academic Editing Services of Manuscripts and Publication Services",
-    description: "We stand by you throughout your publication journey through editing manuscripts to ensure clarity and adherence to standard scientific English, formatting manuscripts according to journal guidelines, and providing comprehensive support from journal selection to submission.",
+    header: "Frontier Hub",
+    description: "At Frontiers Hub, we stand by you, providing unwavering support across academia, business, and environmental initiatives. We assist you with embarking on your publication journey with confidence. Elevate your business with our tailored consulting services. and partnering with international editing companies for a global perspective.",
+    path: "/frontier",
   },
   {
     id: 2,
-    header: "Editing of manuscripts",
-    description: "We provide editorial assistance on your manuscripts",
+    header: "Sanerv Consult",
+    description: "Welcome to Sanerv Consult, your partner in Environmental Services, specializing in Water, Sanitation, and Hygiene (WASH). Explore our offerings, including Environmental Impact Assessment (EIA) services and cutting-edge Geographic Information System (GIS) services.",
+    path: "sanerv",
   },
   {
     id: 3,
-    header: "Guide and facilitate the publication process of authors",
-    description: "We assist client choose you a journal and through the various stages to publication",
+    header: "SafeHeights Consult",
+    description: "Welcome to Safe Heights Consult, your dedicated partner in Occupational Health and Safety. Explore our comprehensive suite of services designed to create safe and secure work environments. From risk assessments to safety training, we prioritize the well-being of your workforce. At Safe Heights Consult, our mission is to foster a culture of safety and well-being in workplaces across industries. Partner with us to create a secure environment where your team can thrive. Your safety is our priority.",
+    path: "safe_heights",
   },
   {
     id: 4,
-    header: "Business consulting services",
-    description: "Elevate your business with our tailored consulting services",
+    header: "Waste Val Locus",
+    description: "Welcome to Waste Val Locus, your holistic solution for Farming and Waste Management & Valorization. Experience sustainable agriculture and responsible waste utilization with us. From animal rearing to plant cultivation and innovative waste valorization, we're committed to fostering a greener future.",
+    path: "waste",
   },
   {
     id: 5,
-    header: "KPI Assistance",
-    description:
-      "Introducing Key Performance Indicators which will help companies measure their progress",
+    header: "MushUp Tiktac Ventures",
+    description: "Welcome to Mushup, your gateway to a world of possibilities with mushroom production. As a wholly Ghanaian company, we're on a mission to introduce innovative and sustainable mushroom solutions to Ghana and beyond. Join us in cultivating a healthier future through the proactive exploitation of mushrooms.",
+    path: "mushup",
   },
   {
     id: 6,
-    header: "QA Assistance",
-    description: "Conducting quality assurance for diverse companies",
+    header: "Equipped Ventures",
+    description: "Welcome to Equipped Ventures, your one-stop destination for Social, Events, and Interior Services. From exquisite interior décor to event essentials rental and thrilling indoor entertainment, we've got your social experiences covered. Join us in creating unforgettable moments and transforming spaces.",
+    path: "equipped_ventures",
   },
   {
     id: 7,
-    header: "Research/Grant proposal writing",
-    description:
-      "Writing proposals for grants that will either tow a research tangent or a practical tangent",
+    header: "Habitat Estates",
+    description: "Welcome to Habitat Estates, your trusted partner in Real Estate Services. Explore a world of unparalleled expertise, integrity, and personalized solutions. Whether you're buying, selling, or investing, we're here to guide you through the intricate landscape of real estate with professionalism and dedication.",
+    path: "habitat_estates",
   },
   {
     id: 8,
-    header: "Academic Helpline",
-    description:
-      "Empowering students with comprehensive academic support through: • Assistance in thesis, assignments, and research proposal writing. • Aid in data collection",
-  },
-  {
-    id: 9,
-    header: "Assist students (particularly postgraduates) with academic writing",
-    description: "• Thesis writing • Assignments • Research Proposal writing",
-  },
-  {
-    id: 10,
-    header: "Assist students with data collection",
-    description: "",
+    header: "EdSanServ",
+    description: "ED§ANSERV is a sanitation service company that seeks to maximize the use of effluent and nutrient resource from all waste streams (both solid and liquid) in a facility.",
+    path: "habitat_estates",
   },
 ];
 
 const CompanyCard = () => {
+  // const navigate = useNavigate();
+
   return (
     <div className="section-bg p-0 m-0">
-      <div className=" mb-12 flex flex-col justify-center gap-10  lg:flex-row lg:gap-4">
+      <About />
+      <div className="mt-12 mb-8 flex flex-col justify-center gap-10  lg:flex-row lg:gap-4">
         <div>
           <h2 className="font-display relative text-3xl font-bold tracking-tight text-heading lg:text-5xl lg:tracking-tighter">
             What We Do
@@ -69,35 +66,23 @@ const CompanyCard = () => {
           </h2>
         </div>
       </div>
-      <p className="text-center font-normal grid grid-cols-1 max-w-2xl mx-auto pt-8">
-        At Frontiers Hub, we stand by you, providing unwavering support across academia, business, and environmental initiatives. We assist you with embarking on your publication journey with confidence. Elevate your business with our tailored consulting services. and partnering with international editing companies for a global perspective.
-      </p>
-      
+
       <section className="p-6 md:py-10">
-        <div className="justify-center text-center">
-          <h2 className="font-display relative text-xl font-bold tracking-tight text-heading lg:text-3xl lg:tracking-tighter">
-            Services
-          </h2>
-        </div>
         <div className="mx-auto w-full max-w-6xl ">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {Intel.map((item, key) => (
               <a
-                href="#"
                 key={key}
+                // onClick={()=> navigate(item.path)}
+                href={'#' + item.path}
                 target="_blank"
                 rel="noreferrer noopener"
                 className="rounded-2xl glass-bg drop-shadow-2xl  px-6 pt-4 pb-5 
-                hover:-translate-y-1 hover:scale-110 hover:shadow-2xl hover:shadow-green-500/50 hover:bg-white  hover:border-double border-8
+                hover:-translate-y-1 hover:scale-110 hover:shadow-2xl hover:shadow-green-500/50 hover:bg-white hover:border-double border-8
                   duration-300 ..."
               >
                 <div className="flex justify-between">
                   <div className="flex content-center items-center gap-2">
-                    {/* <img
-                      src="/assets/avatars/matthew.png"
-                      alt="user"
-                      className="inline-block h-12 w-12 rounded-full"
-                    /> */}
                     <div className="flex items-center justify-center">
                       <div className="bg-gradient-to-r from-cyan-600 to-green-500 drop-shadow-2xl  rounded-full h-12 w-12 flex items-center justify-center">
                         <span className="text-white font-bold text-xl">
@@ -106,13 +91,13 @@ const CompanyCard = () => {
                       </div>
                     </div>
                     <div>
-                      <div className="font-semibold text-heading">
+                      <div className="font-semibold text-2xl">
                         {item.header}
                       </div>
                     </div>
                   </div>
                 </div>
-                <p className="mt-2 text-base text-heading">
+                <p className="mt-4 text-base text-heading">
                   {item.description}
                 </p>
               </a>
@@ -120,8 +105,7 @@ const CompanyCard = () => {
           </div>
         </div>
       </section>
-      <Staffs />
-      <About />
+
       <Footer />
     </div>
   );

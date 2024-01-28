@@ -3,11 +3,11 @@
 import CompanyCard from "./cardRender";
 
 
- const WhatWeDo = () => {
+const WhatWeDo = () => {
   return (
     <section className="">
-      <CompanyCard/>
-  </section>
+      <CompanyCard />
+    </section>
   )
 }
 export default WhatWeDo;
