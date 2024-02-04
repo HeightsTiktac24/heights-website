@@ -48,7 +48,7 @@ const Intel = [
     id: 8,
     header: "EdSanServ",
     description: "ED§ANSERV is a sanitation service company that seeks to maximize the use of effluent and nutrient resource from all waste streams (both solid and liquid) in a facility.",
-    path: "habitat_estates",
+    path: "edsanserv",
   },
 ];
 

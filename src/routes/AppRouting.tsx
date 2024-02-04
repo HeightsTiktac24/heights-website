@@ -1,5 +1,9 @@
 import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
-import { Home, WhatWeDo, Frontier, SafeHeights, Sanerv } from "../pages/index";
+import {
+  Home, WhatWeDo, Frontier, SafeHeights, Sanerv, WasteValLocus, MushUp, EquippedVentures,
+  HabitatEstates,
+  EdSanServ
+} from "../pages/index";
 import Layout from "../pages/layout";
 
 
@@ -16,6 +20,11 @@ const AppRouting = () => {
           <Route path="frontier" element={<Frontier />} />
           <Route path="safe_heights" element={<SafeHeights />} />
           <Route path="sanerv" element={<Sanerv />} />
+          <Route path="waste" element={<WasteValLocus />} />
+          <Route path="mushup" element={<MushUp />} />
+          <Route path="equipped_ventures" element={<EquippedVentures />} />
+          <Route path="habitat_estates" element={<HabitatEstates />} />
+          <Route path="edsanserv" element={<EdSanServ />} />
         </Route>
 
         {/* Not found */}
