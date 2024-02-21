@@ -58,7 +58,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height:auto;
-
 }
 
 /* .staff-bg{
@@ -69,6 +68,14 @@ body {
   height:auto;
 
 } */
+
+section.card:nth-child(odd) {
+  background-color: rgb(220 252 231);
+}
+
+section.card:nth-child(even) {
+  background-color: rgb(219 234 254);
+}
 
 .glass-bg{
   background: rgba(255, 255, 255, 0.2);
