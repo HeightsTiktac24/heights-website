@@ -94,25 +94,25 @@ export const FrontierHub = () => {
                                             <li>Prepare response letters to clients.</li>
                                         </ol>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <span>Partnering with International Editing Companies</span>
                                         <ol className="list-disc list-inside pl-4">
                                         </ol>
-                                    </li>
-                                    <li>
+                                    </li> */}
+                                    {/* <li>
                                         <span>We provide editorial assistance on your manuscripts:</span>
                                         <ol className="list-disc list-inside pl-4">
                                             <li><span className="font-medium">Edit manuscripts </span>so that the final text is in standard scientific English and has clear, well-structured sentences</li>
                                             <li><span className="font-medium">Format manuscripts </span>according to the target journal where required while following other specific instructions.</li>
                                             <li>Ensure that all<span className="font-medium"> subject-specific conventions </span>are followed.</li>
                                         </ol>
-                                    </li>
+                                    </li> */}
                                 </ol>
 
-                                <dl className="my-4">
+                                {/* <dl className="my-4">
                                     <dt className="font-medium">Target Audience</dt>
                                     <dd>Academics such as lecturers, doctoral and masters’ students as well as research institutions.</dd>
-                                </dl>
+                                </dl> */}
                             </div>
                         </li>
                     </ol>
